@@ -22,7 +22,7 @@ while(pedido <5):
 	elif orden == 4:
 		costo = costo + 30
    
-print  ("El total de su orden es: %s" % costo)
+	print  ("El total de su orden es: %s" % costo)
 
 
 

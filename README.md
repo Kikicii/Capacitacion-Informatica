@@ -1,4 +1,4 @@
 # Capacitacion-Informatica
-integrantes del equipo: Carlos Orozco, Andres Miranda y Didac Zavala.
-grupo 5to "B"
+Integrantes del equipo: Carlos Orozco, Andres Miranda, Didac Zavala y Ricardo Morales.
+Grupo 5to "B"
 Centro Educativo Patria.

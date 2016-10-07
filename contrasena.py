@@ -1,28 +1,26 @@
 #coding=utf-8
-#Programa que tome la orden en el Carls Junior
-#Con 5 opciones en el menu
-costo = 0 
-pedido = 1
-print("Bienvenido a Carls Jr, te atiende Andres.")
+# Programa que pida una contraseña y rechace al usuario
+#despues de 5 intentos
 
-print ('''1. Famouse Star ($90)
-2. Papas Grandes ($40)
-3. Santa Fe ($100)
-4. Soda Grande ($30)
-5. Salida ''')
-while(pedido <5):
-	orden = int(input("Elige tu orden: "))
+import time 
 
-	if orden == 1:
-		costo = costo + 90
-	elif orden == 2:
-		costo = costo + 40
-	elif orden == 3:
-		costo = costo + 100	
-	elif orden == 4:
-		costo = costo + 30
-   
-print  ("El total de su orden es: %s" % costo)
+password="guajolotitos"
+correcto=0
+intentos=1
+
+print("Bienvenido al Centro Educativo Patria")
+
+while(correcto==0) & (intentos<=4):
+	intento=input("Intoduce tu contraseña:")
+	if intento==password:
+		correcto=1
+		print("Tu contaseña es correcta!")
+	else:
+		time.sleep(5)
+		print("La contraseña que has introducido es incorrecta")
+		intentos=intentos +1 
+		if intentos>4:
+print("Has introducido demasiadas contraseñas incorrectas")
 
 
 

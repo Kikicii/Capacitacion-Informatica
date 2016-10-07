@@ -1,4 +1,13 @@
 # Capacitacion-Informatica
-Integrantes del equipo: Carlos Orozco, Andres Miranda, Didac Zavala y Ricardo Morales.
-Grupo 5to "B"
-Centro Educativo Patria.
+Este repositorio contiene trabjos de los alumnos de la materia: "software para oficinas", del Centro Educativo Patria 
+
+#introduccion 
+te voy a explicar que se necesita 
+
+#Pre-requisitos
+se necesita python 3, este programa funciona en linux
+
+# como ejecutar 
+abre el repositorioy elige un trabajo que quieras abrir le das doble click y ya 
+
+
